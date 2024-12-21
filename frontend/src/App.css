@@ -7,9 +7,44 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fcfcfc;
+  color: #fff;
   overflow-x: hidden;
 }
-
 html{
   overflow-x: hidden;
 }
+.inputBox{
+  width: 100%;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+}
+
+.btnBlue{
+  background-color: #008929;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btnBlue:hover{
+  background-color: #00bffe;
+}
+
