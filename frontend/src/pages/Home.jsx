@@ -34,7 +34,11 @@ const Home = () => {
       </div>
 
       {/* Project Display */}
-      <div className="cards grid px-[100px]">
+      <div className="cards  px-[100px] grid grid-cols-4 gap-4">
+        <GridCard/>
+        <GridCard/>
+        <GridCard/>
+        <GridCard/>
         <GridCard/>
       </div>
     </>
